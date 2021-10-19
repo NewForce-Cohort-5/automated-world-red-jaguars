@@ -5,7 +5,7 @@ const swissCityCollection = [
         link: "https://en.wikipedia.org/wiki/Z%C3%BCrich",
         landmark: "Lake Zurich",
         population: "415,215",
-        image: '../../../images/Zurich.jpg'
+        image: 'images/Zurich.jpg'
     },
     {
         name: "Geneva",
@@ -13,7 +13,7 @@ const swissCityCollection = [
         link: "https://en.wikipedia.org/wiki/Geneva",
         landmark: "Chillon Castle",
         population: "201,818",
-        image: '../../../images/Geneva.jpg'
+        image: 'images/Geneva.jpg'
     },
     {
         name: "Lucerne",
@@ -21,7 +21,7 @@ const swissCityCollection = [
         link: "https://en.wikipedia.org/wiki/Lucerne",
         landmark: "Lake Lucerne",
         population: "81,691",
-        image: '../../../images/Lucerne.png'
+        image: 'images/Lucerne.png'
     }
 ]
 
