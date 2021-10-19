@@ -1,17 +1,18 @@
-import { useSwitzerlandCities } from "./CityDataProvider.js"
+import { useSwissCity } from "./CityDataProvider.js"
+import { City } from "../../ui/City.js"
  
- export const CityList = () => {
+ export const SwissCityList = () => {
  
-     const cities = useSwitzerlandCities()
+     const cities = useSwissCity()
  
-     let cityHTMLRepresentations = ""
+     let swissCityHTMLRepresentations = ""
      for (const singleCityObject of cities) {
-             cityHTMLRepresentations += City(singleCityObject)
+             swissCityHTMLRepresentations += City(singleCityObject)
 
      }
      document.querySelector(".swiss-city-list").innerHTML += `
          <article class="swiss-city-list">
-             ${cityHTMLRepresentations}
+             ${swissCityHTMLRepresentations}
          </article>
      `
  }
