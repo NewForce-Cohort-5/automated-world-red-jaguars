@@ -1,9 +1,8 @@
-export const AfricaCeleb = (africaCeleb) => {
+export const Celeb = (celeb) => {
     return `
          <section class="city-card">
-            <div class="city__name"><b>${africaCeleb.name}</b></div>
-            <div class="city__desc"><i>${africaCeleb.description}</i></div>
-            <a class="city__link" href="">${africaCeleb.link}</a>
+            <div class="celeb-name"><a class="celeb-link" href="${celeb.link}"><b>${celeb.name}</a></b></div>
+            <div class="celeb-desc"><i>${celeb.description}</i></div>
         </section>
     `
 }

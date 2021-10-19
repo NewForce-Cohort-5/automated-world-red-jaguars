@@ -1,5 +1,5 @@
-import { useAfricaCeleb } from "./CeleritiesbDataProvider.js"
-import { AfricaCeleb } from "./Celebrity"
+import { useAfricaCeleb } from "./CelebritiesDataProvider.js"
+import { Celeb } from "./Celebrity.js"
 
 
 
@@ -9,14 +9,14 @@ export const AfricaCelebList = () => {
 
 
     const contentElement = document.querySelector(".africa-celeb-list")
-    const africaCities = useAfricaCeleb()
+    const africaCelebs = useAfricaCeleb()
 
     let africaCelebHTMLRepresentations = ""
     for (const singleAfricaCelebObject of africaCelebs) {
 
 
 
-       africaCelebHTMLRepresentations += AfricaCeleb(singleAfricaCelebObject)
+       africaCelebHTMLRepresentations += Celeb(singleAfricaCelebObject)
     }
 
     
