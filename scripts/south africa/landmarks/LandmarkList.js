@@ -1,30 +1,30 @@
 
-import { useAfricaCity } from "./CityDataProvider.js"
-import { AfricaCity } from "./City.js"
+import { useAfricaLandmark } from "./LandmarkDataProvider.js"
+import { Landmark } from "../../ui/Landmark.js"
 
 
 
 
-export const AfricaCityList = () => {
+export const AfricaLandmarkList = () => {
 
 
 
-    const contentElement = document.querySelector(".africa-city-list")
-    const africaCities = useAfricaCity()
+    const contentElement = document.querySelector(".africa-landmark-list")
+    const africaLandmarks = useAfricaLandmark()
 
-    let africaCityHTMLRepresentations = ""
-    for (const singleAfricaCityObject of africaCities) {
+    let africaLandmarkHTMLRepresentations = ""
+    for (const singleAfricaLandmarkObject of africaLandmarks) {
 
 
 
-       africaCityHTMLRepresentations += AfricaCity(singleAfricaCityObject)
+       africaLandmarkHTMLRepresentations += Landmark(singleAfricaLandmarkObject)
     }
 
     
 
     contentElement.innerHTML += `
-        <article class="africa-city-list">
-        ${africaCityHTMLRepresentations}  
+        <article class="africa-landmark-list">
+        ${africaLandmarkHTMLRepresentations}  
         </article>
     `
 }

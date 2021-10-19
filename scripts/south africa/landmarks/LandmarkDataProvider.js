@@ -1,4 +1,4 @@
-const landmarkCollection = [
+const africanLandmarkCollection = [
     {
         image:"/images/table-mountain.png",
         name: "Table Mountain",
@@ -8,7 +8,7 @@ const landmarkCollection = [
     },
 
     {
-        image: "C:\Users\jtwym\workspace\automated-world-red-jaguars\images\Old-Fort-sunset.jpg",
+        image: "images/Old-Fort-sunset.jpg",
         name: "Constitution Hill",
         description: "The site of incarceration in South Africa that imprisoned a large number of world renowned men and women such as Nelson Mandela and Mahatma Gandhi",
         city: "Johannesburg",
@@ -16,10 +16,14 @@ const landmarkCollection = [
     },
 
     {
-        image: "",
+        image: "images/p-nationalpark.jpg",
         name: "Pilanesberg National Park",
-        description: "",
-        city: "",
-        link: ""
+        description: "Among Southern Africa’s fascinating game reserves, Pilanesberg National Park is possibly the most accessible. Situated in the ecologically rich transition zone between the Kalahari and the Lowveld, this vast area promises thrilling big game viewing in a malaria free environment. ",
+        city: "Rustenberg",
+        link: "https://www.pilanesbergnationalpark.org/?gclid=CjwKCAjw2bmLBhBREiwAZ6ugo-ZMCZPf3UwhWnKDCAYYWDgLoaL0MH-Ncy05sl41QopS1K1pQmI7HBoCWfoQAvD_BwE"
     },
 ]
+
+export const useAfricaLandmark = () => {
+    return africanLandmarkCollection.slice()
+}
