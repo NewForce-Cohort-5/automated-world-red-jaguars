@@ -24,3 +24,4 @@ export const CitiesList = () => {
         <article class="iceland-list">
             ${citiesHTMLRepresentations}
         </article>`
+}        
