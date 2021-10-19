@@ -1,4 +1,4 @@
-const swissCities = [
+const swissCityCollection = [
     {
         name: "Zurich",
         population: "415,215",
@@ -26,5 +26,5 @@ const swissCities = [
 ]
 
 export const useSwitzerlandCities = () => {
-    return swissCities.slice()
+    return swissCityCollection.slice()
 }

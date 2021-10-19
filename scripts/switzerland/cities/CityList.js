@@ -4,14 +4,14 @@ import { useSwitzerlandCities } from "./CityDataProvider.js"
  
      const cities = useSwitzerlandCities()
  
-     let fishHTMLRepresentations = ""
+     let cityHTMLRepresentations = ""
      for (const singleCityObject of cities) {
              cityHTMLRepresentations += City(singleCityObject)
 
      }
-     document.querySelector("#swissCityList").innerHTML += `
-         <article class="cityList">
-             ${fishHTMLRepresentations}
+     document.querySelector(".swiss-city-list").innerHTML += `
+         <article class="swiss-city-list">
+             ${cityHTMLRepresentations}
          </article>
      `
  }
