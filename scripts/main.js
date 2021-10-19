@@ -1,6 +1,3 @@
-import { renderNav } from "./ui/renderNav.js";
+import { renderNav } from "./ui/renderNav.js"
 
-
-
-
-renderNav();
+renderNav()
