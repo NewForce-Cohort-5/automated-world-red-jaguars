@@ -1,11 +1,10 @@
-export const AfricaCity = (africaCity) => {
+export const Landmark = (landmark) => {
     return `
          <section class="city-card">
-            <div class="city__name"><b>${africaCity.name}</b></div>
-            <div class="city__desc"><i>${africaCity.description}</i></div>
-            <a class="city__link" href="">${africaCity.link}</a>
-            <div class="city__landmark"><b>Landmark: </b>${africaCity.landmark}</div>
-            <div class="city__pop"><b>Population: </b>${africaCity.population}</div>
+         <img class= "landmark-image" src="${landmark.image}" alt="">
+         <div class="city__name"> <a class="city__link" href="${landmark.link}"><b>${landmark.name}</b></a></div>
+            <div class="city__desc"><i>${landmark.description}</i></div>
+            <div class="city__link">${landmark.city}</div>
         </section>
     `
 }
