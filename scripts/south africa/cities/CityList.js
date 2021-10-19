@@ -1,5 +1,5 @@
 import { useAfricaCity } from "./CityDataProvider.js"
-import { AfricaCity } from "./City.js"
+import { City } from "../../ui/City.js"
 
 
 
@@ -16,7 +16,7 @@ export const AfricaCityList = () => {
 
 
 
-       africaCityHTMLRepresentations += AfricaCity(singleAfricaCityObject)
+       africaCityHTMLRepresentations += City(singleAfricaCityObject)
     }
 
     
