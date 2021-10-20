@@ -1,4 +1,20 @@
+.landmarks {
+	display: flex;
+	flex-basis: auto;
+	padding: auto;
+	margin:auto;
+	flex-wrap:wrap;
+  justify-content: space-evenly;
+}
+
+.landmark-card {
+
+	flex-basis: 33%;
+}
+
 .landmark-image {
-	height: auto;
+	height: 300px;
 	width: 100%;
+  object-fit: cover;
+  margin-bottom: 1em;
 }
