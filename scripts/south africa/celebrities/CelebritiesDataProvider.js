@@ -6,9 +6,9 @@ const africanCelebCollection = [
     },
 
     {
-        name: "Roger Federer",
-        description: "World renowed tennis champion. Federer's mother, Lynette, was born in Kempton park, on the East Ran, adjacent to Johannesburg",
-        link: "https://en.wikipedia.org/wiki/Roger_Federer"
+        name: "Elon Musk",
+        description: "Visionary entrepreneur Elon Musk is the charismatic co-founder of PayPal (PYPL) and Tesla (TSLA), as well as the founder of SpaceX, Neuralink, and The Boring Company. He serves as CEO of Tesla and CEO/lead designer of SpaceX.",
+        link: "https://en.wikipedia.org/wiki/Elon_Musk"
     },
 
     {
