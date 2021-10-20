@@ -5,7 +5,7 @@ import { City } from "../../ui/City.js"
  
      const cities = useSwissCity()
  
-     let swissCityHTMLRepresentations = ""
+     let swissCityHTMLRepresentations = "<h1>Cities</h1>"
      for (const singleCityObject of cities) {
              swissCityHTMLRepresentations += City(singleCityObject)
 

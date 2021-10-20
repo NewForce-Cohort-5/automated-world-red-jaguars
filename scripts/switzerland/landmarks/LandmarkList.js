@@ -5,7 +5,7 @@ import { Landmark } from "../../ui/Landmark.js"
  
      const landmarks = useSwissLandmarks()
  
-     let swissLandmarkHTMLRepresentations = ""
+     let swissLandmarkHTMLRepresentations = "<h1>Landmarks</h1>"
      for (const singleLandmarkObject of landmarks) {
              swissLandmarkHTMLRepresentations += Landmark(singleLandmarkObject)
 
