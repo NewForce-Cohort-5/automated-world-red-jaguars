@@ -1,0 +1,12 @@
+.africa-city-list {
+	display: flex;
+	flex-basis: auto;
+	padding: auto;
+	margin:auto;
+	flex-wrap:wrap;
+}
+
+.city-card {
+
+	flex-basis: 33%;
+}
