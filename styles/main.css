@@ -22,7 +22,6 @@
 .africa-city-list {
 	display: flex;
 	flex-basis: auto;
-	justify-content: center;
 	padding: auto;
 	margin:auto;
 	flex-wrap:wrap;
@@ -34,15 +33,21 @@
 }
 
 
+.celeb-card {
 
+	flex-basis: 33%;
+}
 
 .africa-celeb-list {
 	display: flex;
+	flex-basis: auto;
+	padding: auto;
+	margin:auto;
+	flex-wrap: wrap;
 }
 
 
 h1 {
 	width: 100%;
 	flex-basis: 100%;
-	text-align: center;
 }
