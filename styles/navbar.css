@@ -1,0 +1,15 @@
+.navbar {
+	background-color: #79171a;
+}
+
+.nav-logo {
+	width: 70px;
+}
+
+.nav-link {
+	color: #fff;
+}
+
+.active {
+  color: darkorange;
+}
