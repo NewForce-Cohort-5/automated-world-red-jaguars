@@ -6,4 +6,4 @@ import { CelebsList} from "./celebrities/CelebritiesList.js"
 renderNav()
 CitiesList()
 LandmarkList()
-CelebritiesList()
+CelebsList()
