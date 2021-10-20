@@ -3,7 +3,7 @@
 	flex-basis: 33%;
 }
 
-.africa-celeb-list {
+.africa-celeb-list, .swiss-celebrity-list {
 	display: flex;
 	flex-basis: auto;
 	padding: auto;
