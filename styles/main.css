@@ -16,61 +16,14 @@ textarea {
 	font-family: "Comfortaa", Arial, sans-serif;
 	font-size: 14px;
 	line-height: 1.5;
+	width: 100%;
+	flex-basis: 100%;
 }
 
 h1,h2,h3,h4,h5,h6 {
   font-family: "Patua One", serif;
   letter-spacing: 2px;
 }
-
-
-.navbar {
-	background-color: #79171a;
-}
-
-.nav-logo {
-	width: 70px;
-}
-
-.nav-link {
-	color: #fff;
-}
-
-
-.landmark-image {
-	height: auto;
-	width: 100%;	
-}
-
-
-
-.africa-city-list {
-	display: flex;
-	flex-basis: auto;
-	padding: auto;
-	margin:auto;
-	flex-wrap:wrap;
-}
-
-.city-card {
-
-	flex-basis: 33%;
-}
-
-
-.celeb-card {
-
-	flex-basis: 33%;
-}
-
-.africa-celeb-list {
-	display: flex;
-	flex-basis: auto;
-	padding: auto;
-	margin:auto;
-	flex-wrap: wrap;
-}
-
 
 h1 {
 	width: 100%;
