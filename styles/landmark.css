@@ -1,4 +1,4 @@
-.landmarks {
+.landmarks, .swiss-landmark-list {
 	display: flex;
 	flex-basis: auto;
 	padding: auto;
