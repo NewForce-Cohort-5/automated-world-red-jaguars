@@ -1,11 +1,11 @@
-import { useSwissCelebrities } from "./CelebritiesDataProvider.js"
+import { useSwissCelebrities } from "./CelebrityDataProvider.js"
 import { Celeb } from "../../ui/Celebrity.js"
  
  export const SwissCelebrityList = () => {
  
      const celebrities = useSwissCelebrities()
  
-     let swissCelebrityHTMLRepresentations = ""
+     let swissCelebrityHTMLRepresentations = "<h1>Celebrities</h1>"
      for (const singleCelebrityObject of celebrities) {
              swissCelebrityHTMLRepresentations += Celeb(singleCelebrityObject)
 
