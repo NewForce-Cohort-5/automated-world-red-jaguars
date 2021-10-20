@@ -1,5 +1,5 @@
 import { useAfricaCeleb } from "./CelebritiesDataProvider.js"
-import { Celeb } from "../../ui/Celebrity.js"
+import { Celeb } from "./Celebrity.js"
 
 
 
