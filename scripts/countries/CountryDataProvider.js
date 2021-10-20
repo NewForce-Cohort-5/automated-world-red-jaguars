@@ -1,33 +1,33 @@
-const CountryCollection = [
+const countryCollection = [
     {
-        image:"/images/table-mountain.png",
+        image:"/images/swiss-homepage.jpg",
         name: "Iceland",
-        description: "Known as the most iconic landmark of South Africa, an national park, once named as one of the World's 7 wonders. It's famous cable car has taken millions of people to it's peak.",
-        link: "https://tablemountainnationalpark.org/"
+        description: "Iceland is an island, a European country, located midway between North America and mainland Europe. It lies just below the Arctic Circle between 64 and 66 degrees north. The capital is Reykjavik. It is the northernmost capital in the world and is located exactly halfway between New York and Moscow.",
+        link: "iceland.html"
     },
 
     {
-        image: "images/Old-Fort-sunset.jpg",
+        image: "images/netherland-homepage.jpg",
         name: "Netherlands",
-        description: "The site of incarceration in South Africa that imprisoned a large number of world renowned men and women such as Nelson Mandela and Mahatma Gandhi",
-        link: "https://www.constitutionhill.org.za/"
+        description: "The Netherlands is a small country sandwiched between Belgium and Germany in Western Europe. The North Sea, located to the north and west of the Netherlands, is continually battering the land. The Netherlands is larger than the state of Maryland, but smaller than West Virginia.",
+        link: "natherlands.html"
     },
 
     {
-        image: "images/p-nationalpark.jpg",
+        image: "images/south-africa-homepage.jpg",
         name: "South Africa",
-        description: "Among Southern Africa’s fascinating game reserves, Pilanesberg National Park is possibly the most accessible. Situated in the ecologically rich transition zone between the Kalahari and the Lowveld, this vast area promises thrilling big game viewing in a malaria free environment. ",
-        link: "https://thecommonwealth.org/our-member-countries/south-africa"
+        description: "South Africa is one of the most geographically varied countries on the African continent, comprising territory that ranges from the rolling, fertile plains of the highveld and the wide-open savannah of Mpumalanga to the Kalahari desert and the peaks of the Drakensberg Mountains.",
+        link: "southafrica.html"
     },
 
     {
-        image: "images/p-nationalpark.jpg",
-        name: "South Africa",
-        description: "Among Southern Africa’s fascinating game reserves, Pilanesberg National Park is possibly the most accessible. Situated in the ecologically rich transition zone between the Kalahari and the Lowveld, this vast area promises thrilling big game viewing in a malaria free environment. ",
-        link: "https://thecommonwealth.org/our-member-countries/south-africa"
+        image: "images/swiss-homepage.jpg",
+        name: "Switzerland",
+        description: "Switzerland is a small mountainous country located in central Europe. This landlocked country is about the size of New Jersey and is between France and Italy. ... Most of the population lives in the plateau which is between the high Alps in the south and the Jura mountains in the north.",
+        link: "switzerland.html"
     },
 ]
 
-export const useAfricaLandmark = () => {
-    return africanLandmarkCollection.slice()
+export const useCountries = () => {
+    return countrycollection.slice()
 }
