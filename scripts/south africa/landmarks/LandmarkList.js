@@ -9,22 +9,16 @@ export const AfricaLandmarkList = () => {
 
 
 
-    const contentElement = document.querySelector(".africa-landmark-list")
-    const africaLandmarks = useAfricaLandmark()
+    const landmarks = useAfricaLandmark()
+ 
+    let africaLandmarkHTMLRepresentations = "<h1>Landmarks</h1>"
+    for (const singleLandmarkObject of landmarks) {
+            africaLandmarkHTMLRepresentations += Landmark(singleLandmarkObject)
 
-    let africaLandmarkHTMLRepresentations = ""
-    for (const singleAfricaLandmarkObject of africaLandmarks) {
-
-
-
-       africaLandmarkHTMLRepresentations += Landmark(singleAfricaLandmarkObject)
     }
-
-    
-
-    contentElement.innerHTML += `
+    document.querySelector(".africa-landmark-list").innerHTML += `
         <article class="africa-landmark-list">
-        ${africaLandmarkHTMLRepresentations}  
+            ${africaLandmarkHTMLRepresentations}
         </article>
     `
 }

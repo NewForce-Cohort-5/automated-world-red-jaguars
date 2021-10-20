@@ -18,25 +18,22 @@
 }
 
 
-.container{
-	display: flex;
-	flex-flow: row wrap;
-	justify-content: center;
-}
 
 .africa-city-list {
 	display: flex;
 	flex-basis: auto;
 	justify-content: center;
-	padding: 10px;
+	padding: auto;
 	margin:auto;
+	flex-wrap:wrap;
 }
 
-.celeb-card {
-	border: 1px solid black;
-	margin:5px;
-	padding: 5px;
+.city-card {
+
+	flex-basis: 33%;
 }
+
+
 
 
 .africa-celeb-list {
@@ -44,3 +41,8 @@
 }
 
 
+h1 {
+	width: 100%;
+	flex-basis: 100%;
+	text-align: center;
+}
