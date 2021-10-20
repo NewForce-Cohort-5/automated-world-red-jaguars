@@ -1,0 +1,12 @@
+.celeb-card {
+
+	flex-basis: 33%;
+}
+
+.africa-celeb-list {
+	display: flex;
+	flex-basis: auto;
+	padding: auto;
+	margin:auto;
+	flex-wrap: wrap;
+}
