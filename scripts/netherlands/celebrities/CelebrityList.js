@@ -1,5 +1,5 @@
 import { useNetherlandsCitizens } from "./CelebritiesDataProvider.js";
-import { Celebrity } from "../../ui/Celebrity.js";
+import { Celeb as Celebrity } from "../../ui/Celebrity.js";
 
 const celebrities = useNetherlandsCitizens();
 
