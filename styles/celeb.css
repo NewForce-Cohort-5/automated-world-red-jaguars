@@ -1,0 +1,13 @@
+.celeb-card {
+
+	flex-basis: 33%;
+}
+
+.africa-celeb-list, .celebrities, .swiss-celebrity-list {
+	display: flex;
+	flex-basis: auto;
+	padding: auto;
+	margin:auto;
+	flex-wrap: wrap;
+  justify-content: space-evenly;
+}

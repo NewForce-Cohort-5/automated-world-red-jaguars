@@ -8,22 +8,16 @@ export const AfricaCityList = () => {
 
 
 
-    const contentElement = document.querySelector(".africa-city-list")
-    const africaCities = useAfricaCity()
+    const cities = useAfricaCity()
+ 
+    let africaCityHTMLRepresentations = "<h1>Cities</h1>"
+    for (const singleCityObject of cities) {
+            africaCityHTMLRepresentations += City(singleCityObject)
 
-    let africaCityHTMLRepresentations = ""
-    for (const singleAfricaCityObject of africaCities) {
-
-
-
-       africaCityHTMLRepresentations += City(singleAfricaCityObject)
     }
-
-    
-
-    contentElement.innerHTML += `
+    document.querySelector(".africa-city-list").innerHTML += `
         <article class="africa-city-list">
-        ${africaCityHTMLRepresentations}  
+            ${africaCityHTMLRepresentations}
         </article>
     `
 }

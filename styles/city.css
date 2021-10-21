@@ -1,0 +1,13 @@
+.africa-city-list, .cities, .swiss-city-list {
+	display: flex;
+	flex-basis: auto;
+	padding: auto;
+	margin:auto;
+	flex-wrap:wrap;
+  justify-content: space-evenly;
+}
+
+.city-card {
+
+	flex-basis: 33%;
+}
