@@ -9,9 +9,10 @@ export const setActive = () => {
   // the one with the current page name inside the elements text content
   const links = document.querySelectorAll(".nav-link");
   links.forEach(link => {
-
+    
     // Make a variable the gets the links text content and make it all lowercase
-    const linkLowerCase = link.textContent.toLocaleLowerCase();
+    const linkLowerCase = link.textContent.toLocaleLowerCase().replace(/\s/, '');
+
     if (page === linkLowerCase) {
       
       // Once a match is found within the array set that link's class to active
