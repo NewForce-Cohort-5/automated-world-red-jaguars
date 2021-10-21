@@ -30,3 +30,7 @@ h1 {
 	flex-basis: 100%;
 	margin: 2em 0;
 }
+
+footer {
+	text-align: right;
+}
