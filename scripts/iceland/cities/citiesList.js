@@ -1,5 +1,5 @@
 import { useCities } from "./CityDataProvider.js";
-import { Cities } from "./cities.js";
+import { City as Cities} from "../../ui/City.js";
 
 
 export const CitiesList = () => {
@@ -21,7 +21,7 @@ export const CitiesList = () => {
 
     // Add a section, and all of the fish to the DOM
     contentElement.innerHTML += `
-        <article class="iceland-list">
-            ${citiesHTMLRepresentations}
-        </article>`
+      
+            ${citiesHTMLRepresentations}`
+       
 }        
