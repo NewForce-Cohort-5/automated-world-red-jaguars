@@ -10,7 +10,7 @@ const countryCollection = [
         image: "images/netherlands-homepage.jpg",
         name: "Netherlands",
         description: "The Netherlands is a small country sandwiched between Belgium and Germany in Western Europe. The North Sea, located to the north and west of the Netherlands, is continually battering the land. The Netherlands is larger than the state of Maryland, but smaller than West Virginia.",
-        link: "natherlands.html"
+        link: "netherlands.html"
     },
 
     {
@@ -29,5 +29,5 @@ const countryCollection = [
 ]
 
 export const useCountries = () => {
-    return countrycollection.slice()
+    return countryCollection.slice()
 }

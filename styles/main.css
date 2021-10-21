@@ -28,29 +28,5 @@ h1,h2,h3,h4,h5,h6 {
 h1 {
 	width: 100%;
 	flex-basis: 100%;
-<<<<<<< HEAD
-}
-.navbar {
-	background-color: #79171a;
-}
-
-.nav-logo {
-	width: 70px;
-}
-
-.nav-link {
-	color: #fff;
-}
-
-
-.landmark-image {
-    float: left;
-    width:  250px;
-    height: 250px;
-    object-fit: cover;
-}
-
-=======
 	margin: 2em 0;
 }
->>>>>>> main
