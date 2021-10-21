@@ -1,0 +1,21 @@
+
+.country-image {
+	height: 300px;
+	width: 100%;
+  object-fit: cover;
+  margin-bottom: 1em;
+  margin-top: 1em;
+}
+
+.countries {
+	display: flex;
+	padding: auto;
+	margin:auto;
+	flex-flow:row wrap;
+ justify-content: space-evenly;
+
+}
+
+.country-card {
+  flex-basis: 40%;
+}
