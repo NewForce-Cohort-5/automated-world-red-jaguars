@@ -1,4 +1,5 @@
-import { Celebs } from "./Celebrities.js";
+import { Celeb as Celebs} from "../../ui/Celebrity.js";
+
 import { useCelebsIceland } from "./CelebritiesDataProvider.js";
 
 export const CelebsList = () => {
