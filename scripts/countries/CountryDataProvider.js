@@ -1,6 +1,6 @@
 const countryCollection = [
     {
-        image:"/images/iceland-homepage.jpg",
+        image:"images/iceland-homepage.jpg",
         name: "Iceland",
         description: "Iceland is an island, a European country, located midway between North America and mainland Europe. It lies just below the Arctic Circle between 64 and 66 degrees north. The capital is Reykjavik. It is the northernmost capital in the world and is located exactly halfway between New York and Moscow.",
         link: "iceland.html"
