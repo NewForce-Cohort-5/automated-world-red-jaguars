@@ -1,4 +1,4 @@
-import { useCountries } from './CountryDataProvider.js';
+import { useCountries } from './countries/CountryDataProvider.js';
 import { Country } from './ui/Country.js';
 
 export const CountryList = () => {
