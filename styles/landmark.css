@@ -1,4 +1,4 @@
-.landmarks, .swiss-landmark-list {
+.landmarks, .swiss-landmark-list, .africa-landmark-list {
 	display: flex;
 	flex-basis: auto;
 	padding: auto;
